@@ -283,3 +283,9 @@ C:\Users\josed\programacion\Cursos\Udemy\render2web\BlogCore\BlogCore\BlogCore\b
 C:\Users\josed\programacion\Cursos\Udemy\render2web\BlogCore\BlogCore\BlogCore\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
 C:\Users\josed\programacion\Cursos\Udemy\render2web\BlogCore\BlogCore\BlogCore\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
 C:\Users\josed\programacion\Cursos\Udemy\render2web\BlogCore\BlogCore\BlogCore\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+C:\Users\josed\programacion\Cursos\Udemy\render2web\BlogCore\BlogCore\BlogCore\bin\Debug\net7.0\BlogCore.DataAccess.dll
+C:\Users\josed\programacion\Cursos\Udemy\render2web\BlogCore\BlogCore\BlogCore\bin\Debug\net7.0\BlogCore.Models.dll
+C:\Users\josed\programacion\Cursos\Udemy\render2web\BlogCore\BlogCore\BlogCore\bin\Debug\net7.0\BlogCore.Utilities.dll
+C:\Users\josed\programacion\Cursos\Udemy\render2web\BlogCore\BlogCore\BlogCore\bin\Debug\net7.0\BlogCore.DataAccess.pdb
+C:\Users\josed\programacion\Cursos\Udemy\render2web\BlogCore\BlogCore\BlogCore\bin\Debug\net7.0\BlogCore.Models.pdb
+C:\Users\josed\programacion\Cursos\Udemy\render2web\BlogCore\BlogCore\BlogCore\bin\Debug\net7.0\BlogCore.Utilities.pdb

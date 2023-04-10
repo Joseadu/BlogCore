@@ -1214,6 +1214,26 @@
             "rid": "win"
           }
         }
+      },
+      "BlogCore.Models/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/BlogCore.Models.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BlogCore.Models.dll": {}
+        }
+      },
+      "BlogCore.Utilities/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/BlogCore.Utilities.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BlogCore.Utilities.dll": {}
+        }
       }
     }
   },
@@ -3625,10 +3645,22 @@
         "useSharedDesignerContext.txt",
         "version.txt"
       ]
+    },
+    "BlogCore.Models/1.0.0": {
+      "type": "project",
+      "path": "../BlogCore.Models/BlogCore.Models.csproj",
+      "msbuildProject": "../BlogCore.Models/BlogCore.Models.csproj"
+    },
+    "BlogCore.Utilities/1.0.0": {
+      "type": "project",
+      "path": "../BlogCore.Utilities/BlogCore.Utilities.csproj",
+      "msbuildProject": "../BlogCore.Utilities/BlogCore.Utilities.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net7.0": [
+      "BlogCore.Models >= 1.0.0",
+      "BlogCore.Utilities >= 1.0.0",
       "Microsoft.AspNetCore.Identity.EntityFrameworkCore >= 7.0.4",
       "Microsoft.EntityFrameworkCore >= 7.0.4",
       "Microsoft.EntityFrameworkCore.SqlServer >= 7.0.4",
@@ -3661,7 +3693,14 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\josed\\programacion\\Cursos\\Udemy\\render2web\\BlogCore\\BlogCore\\BlogCore.Models\\BlogCore.Models.csproj": {
+              "projectPath": "C:\\Users\\josed\\programacion\\Cursos\\Udemy\\render2web\\BlogCore\\BlogCore\\BlogCore.Models\\BlogCore.Models.csproj"
+            },
+            "C:\\Users\\josed\\programacion\\Cursos\\Udemy\\render2web\\BlogCore\\BlogCore\\BlogCore.Utilities\\BlogCore.Utilities.csproj": {
+              "projectPath": "C:\\Users\\josed\\programacion\\Cursos\\Udemy\\render2web\\BlogCore\\BlogCore\\BlogCore.Utilities\\BlogCore.Utilities.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

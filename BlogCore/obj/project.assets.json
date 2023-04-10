@@ -3830,6 +3830,43 @@
         "runtime": {
           "lib/netstandard1.3/System.Xml.XDocument.dll": {}
         }
+      },
+      "BlogCore.DataAccess/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "BlogCore.Models": "1.0.0",
+          "BlogCore.Utilities": "1.0.0",
+          "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "7.0.4",
+          "Microsoft.EntityFrameworkCore": "7.0.4",
+          "Microsoft.EntityFrameworkCore.SqlServer": "7.0.4"
+        },
+        "compile": {
+          "bin/placeholder/BlogCore.DataAccess.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BlogCore.DataAccess.dll": {}
+        }
+      },
+      "BlogCore.Models/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/BlogCore.Models.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BlogCore.Models.dll": {}
+        }
+      },
+      "BlogCore.Utilities/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/BlogCore.Utilities.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BlogCore.Utilities.dll": {}
+        }
       }
     }
   },
@@ -11042,10 +11079,26 @@
         "system.xml.xdocument.4.3.0.nupkg.sha512",
         "system.xml.xdocument.nuspec"
       ]
+    },
+    "BlogCore.DataAccess/1.0.0": {
+      "type": "project",
+      "path": "../BlogCore.DataAccess/BlogCore.DataAccess.csproj",
+      "msbuildProject": "../BlogCore.DataAccess/BlogCore.DataAccess.csproj"
+    },
+    "BlogCore.Models/1.0.0": {
+      "type": "project",
+      "path": "../BlogCore.Models/BlogCore.Models.csproj",
+      "msbuildProject": "../BlogCore.Models/BlogCore.Models.csproj"
+    },
+    "BlogCore.Utilities/1.0.0": {
+      "type": "project",
+      "path": "../BlogCore.Utilities/BlogCore.Utilities.csproj",
+      "msbuildProject": "../BlogCore.Utilities/BlogCore.Utilities.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net7.0": [
+      "BlogCore.DataAccess >= 1.0.0",
       "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore >= 7.0.4",
       "Microsoft.AspNetCore.Identity.EntityFrameworkCore >= 7.0.4",
       "Microsoft.AspNetCore.Identity.UI >= 7.0.4",
@@ -11080,7 +11133,11 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\josed\\programacion\\Cursos\\Udemy\\render2web\\BlogCore\\BlogCore\\BlogCore.DataAccess\\BlogCore.DataAccess.csproj": {
+              "projectPath": "C:\\Users\\josed\\programacion\\Cursos\\Udemy\\render2web\\BlogCore\\BlogCore\\BlogCore.DataAccess\\BlogCore.DataAccess.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
